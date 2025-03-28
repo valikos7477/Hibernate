@@ -14,7 +14,7 @@ public class AuthorTest {
         author.setName("Test Author");
 
         Book book = new Book();
-        book.setTitle("Test Book");
+        book.setTitle("Test Book"); 
 
         // Act
         book.setAuthor(author);
